@@ -1,6 +1,6 @@
 # Fluxo de Estudo do Full Cycle para Arquiteto Software
 
-#### 1. **Fundamentos da Arquitetura de Software**
+#### 1. **[Fundamentos da Arquitetura de Software](https://github.com/daniloopinheiro/fullcycle-arquiteto-software/blob/main/FundamentosArquiteturaSoftware.md)**
    - **Conteúdo**: Conceitos básicos, importância da arquitetura, estilos arquiteturais.
    - **Imagem**: Diagrama de arquitetura com estilos como monolítico, microsserviços, etc.
 
