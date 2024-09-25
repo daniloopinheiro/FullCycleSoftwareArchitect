@@ -4,7 +4,7 @@
    - **Conteúdo**: Conceitos básicos, importância da arquitetura, estilos arquiteturais.
    - **Imagem**: Diagrama de arquitetura com estilos como monolítico, microsserviços, etc.
 
-#### 2. **SOLID Principles**
+#### 2. **[SOLID Principles](https://github.com/daniloopinheiro/fullcycle-arquiteto-software/blob/main/SOLIDPrinciples.md)**
    - **Conteúdo**: Princípios de design de software (Single Responsibility, Open/Closed, etc.).
    - **Imagem**: Gráfico mostrando cada princípio com exemplos.
 
