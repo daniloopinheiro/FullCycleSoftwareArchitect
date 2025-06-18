@@ -8,22 +8,37 @@
 
 ```mermaid
 graph TD
-    A[Fundamentos de Arquitetura] --> B[SOLID]
-    B --> C[Domain Driven Design]
-    C --> D[Modelagem Tática]
-    D --> E[Event Storming]
-    E --> F[Clean Architecture]
-    F --> G[Monolitos vs Microsserviços]
-    G --> H[EDA]
-    H --> I[Mensageria]
-    I --> J[Autenticação]
-    J --> K[Projetos Práticos]
-    K --> L[Frameworks de Desenvolvimento]
-    L --> M[Git e CI/CD]
-    M --> N[API Gateway + Kong]
-    N --> O[Observabilidade]
-    O --> P[IaC com Terraform]
-    P --> Q[Cloud Providers]
+    subgraph Fundamentos_e_Arquitetura [🧱 Fundamentos e Arquitetura]
+        direction LR
+        A1[📐 Fundamentos de Arquitetura]
+        A2[🧩 SOLID Principles]
+        A3[📘 Domain Driven Design]
+        A4[🛠️ Modelagem Tática]
+        A5[🌀 Event Storming]
+        A6[🧼 Clean Architecture]
+        A7[🏗️ Monolitos vs Microsserviços]
+        A8[📡 Event Driven Architecture - EDA]
+    end
+
+    subgraph Pratica_Mensageria_Infraestrutura [⚙️ Prática, Mensageria e Infraestrutura]
+        direction LR
+
+        B1[✉️ RabbitMQ e Kafka]
+        B2[🔐 Autenticação com Keycloak]
+        B3[🎥 Projeto Codeflix]
+        B4[🧑‍💻 .NET & React]
+        B5[📽️ Microsserviço com Go]
+        B6[🌳 Git e GitHub Avançado]
+        B7[⚙️ Integração Contínua - CI/CD]
+        B8[🌐 API Gateway + Kong]
+        B9[📈 Observabilidade com OpenTelemetry]
+        B10[🏗️ Terraform & Ansible]
+        B11[☁️ Deploy em Cloud Providers]
+    end
+
+    %% A1 --> A2 --> A3 --> A4 --> A5 --> A6 --> A7 --> A8 --> B1
+    %% B1 --> B2 --> B3 --> B4 --> B5 --> B6 --> B7 --> B8 --> B9 --> B10 --> B11
+
 ```
 
 ---
