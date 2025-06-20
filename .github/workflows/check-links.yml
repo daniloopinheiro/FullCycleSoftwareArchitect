@@ -1,4 +1,4 @@
-name: README
+name: Check Markdown Links
 
 on:
   push:
