@@ -1,23 +1,27 @@
-name: README Link Checker
+name: README
 
 on:
   push:
     branches: [main]
     paths:
-      - 'README.md'
+      - '**.md'
   pull_request:
+    branches: [main]
     paths:
-      - 'README.md'
+      - '**.md'
   workflow_dispatch:
 
 jobs:
-  check-links:
+  check-markdown-links:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Checkout do código
         uses: actions/checkout@v4
 
-      - name: Check links in README.md
+      - name: Verificar links quebrados
         uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
-          file: README.md
+          folder-path: .
+          file-extension: .md
+          max-depth: -1
