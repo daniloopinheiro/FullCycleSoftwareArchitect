@@ -1,5 +1,7 @@
 # 🧠 Fluxo de Estudo do Full Cycle para Arquiteto de Software
 
+[![Check Markdown Links](https://github.com/daniloopinheiro/FullCycleSoftwareArchitect/actions/workflows/check-links.yml/badge.svg)](https://github.com/daniloopinheiro/FullCycleSoftwareArchitect/actions/workflows/check-links.yml)
+
 > Um guia estruturado para desenvolvedores que desejam se tornar arquitetos de software modernos e prontos para ambientes corporativos de alta complexidade.
 
 ---
