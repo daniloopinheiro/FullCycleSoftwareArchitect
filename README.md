@@ -47,11 +47,11 @@ graph TD
 
 ## 🧱 Etapas e Conteúdos
 
-### 1. 📐 [Fundamentos da Arquitetura de Software](https://github.com/daniloopinheiro/fullcycle-arquiteto-software/blob/main/FundamentosArquiteturaSoftware.md)
+### 1. 📐 Fundamentos da Arquitetura de Software
 
 * Conceitos básicos, estilos arquiteturais e papel do arquiteto.
 
-### 2. 🧩 [SOLID Principles](https://github.com/daniloopinheiro/fullcycle-arquiteto-software/blob/main/SOLIDPrinciples.md)
+### 2. 🧩 SOLID Principles
 
 * Princípios de design para sistemas sustentáveis.
 
